@@ -35,8 +35,10 @@ struct GiftListView: View {
   
   var body: some View {
     NavigationView {
-      Text("Gifts go here!")
-        .navigationBarTitle("Gifter")
+      List {
+        Text("A gift")
+      }
+      .navigationBarTitle("Gifter")
     }
   }
 }
