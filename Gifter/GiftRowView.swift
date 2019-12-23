@@ -28,17 +28,36 @@
 
 import SwiftUI
 
-struct NewGiftView: View {
+struct GiftRowView: View {
+  @Binding var gift: Gift
   
   var body: some View {
-    NavigationView {
-      Text("Add a gift")
+    HStack(spacing: 12) {
+      Button(action: {
+        self.gift.isPurchased.toggle()
+      }) {
+        Image(systemName: gift.isPurchased ? "gift.fill" : "gift")
+          .foregroundColor(gift.isPurchased ? .green : .black)
+          .font(.system(size: 28, weight: .regular))
+      }
+      
+      VStack(alignment: .leading, spacing: 4) {
+        Text(gift.description)
+          .font(.title)
+        Text(gift.recipient)
+          .font(.headline)
+      }
+      
+      Spacer()
+      
+      Text("$\(gift.price, specifier: "%.2f")")
+        .font(.headline)
     }
   }
 }
 
-struct NewGiftView_Previews: PreviewProvider {
+struct GiftRowView_Previews: PreviewProvider {
   static var previews: some View {
-    NewGiftView()
+    GiftRowView(gift: .constant(Gift(description: "PS4 Controller", recipient: "Doug", price: 38.99)))
   }
 }

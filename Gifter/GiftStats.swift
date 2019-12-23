@@ -26,19 +26,9 @@
 /// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 /// THE SOFTWARE.
 
-import SwiftUI
+import Foundation
 
-struct NewGiftView: View {
-  
-  var body: some View {
-    NavigationView {
-      Text("Add a gift")
-    }
-  }
-}
-
-struct NewGiftView_Previews: PreviewProvider {
-  static var previews: some View {
-    NewGiftView()
-  }
+class GiftStats: ObservableObject {
+  @Published var purchasedGifts = 0
+  @Published var totalGifts = 0
 }
