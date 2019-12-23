@@ -32,8 +32,7 @@ struct NewGiftView: View {
   
     var body: some View {
       NavigationView {
-        Text("Add a new gift")
-          .navigationBarTitle("New Gift", displayMode: .inline)
+        Text("Add a gift")
       }
     }
 }
