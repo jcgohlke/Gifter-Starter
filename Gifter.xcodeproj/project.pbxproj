@@ -13,6 +13,7 @@
 		18D775C722AD944400AE281E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D775C622AD944400AE281E /* Assets.xcassets */; };
 		18D775CA22AD944400AE281E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D775C922AD944400AE281E /* Preview Assets.xcassets */; };
 		18D775D822AD963800AE281E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D775DA22AD963800AE281E /* LaunchScreen.storyboard */; };
+		F332EA2623B1107900A8189C /* NewGiftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F332EA2523B1107900A8189C /* NewGiftView.swift */; };
 		F3B6AE3E2397313F00C93B91 /* Gift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6AE3D2397313F00C93B91 /* Gift.swift */; };
 		F3B6AE492397400500C93B91 /* IndexedCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6AE462397400500C93B91 /* IndexedCollection.swift */; };
 		F3B6AE4A2397400500C93B91 /* Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6AE472397400500C93B91 /* Binding.swift */; };
@@ -28,6 +29,7 @@
 		18D775C922AD944400AE281E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		18D775CE22AD944400AE281E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18D775DE22AD96B400AE281E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F332EA2523B1107900A8189C /* NewGiftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGiftView.swift; sourceTree = "<group>"; };
 		F3B6AE3D2397313F00C93B91 /* Gift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gift.swift; sourceTree = "<group>"; };
 		F3B6AE462397400500C93B91 /* IndexedCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexedCollection.swift; sourceTree = "<group>"; };
 		F3B6AE472397400500C93B91 /* Binding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Binding.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				18D775C022AD944300AE281E /* AppDelegate.swift */,
 				18D775C222AD944300AE281E /* SceneDelegate.swift */,
 				18D775C422AD944300AE281E /* GiftListView.swift */,
+				F332EA2523B1107900A8189C /* NewGiftView.swift */,
 				F3B6AE3D2397313F00C93B91 /* Gift.swift */,
 				18D775C622AD944400AE281E /* Assets.xcassets */,
 				18D775DA22AD963800AE281E /* LaunchScreen.storyboard */,
@@ -169,6 +172,7 @@
 				18D775C122AD944300AE281E /* AppDelegate.swift in Sources */,
 				F3B6AE4B2397400500C93B91 /* ForEach.swift in Sources */,
 				F3B6AE492397400500C93B91 /* IndexedCollection.swift in Sources */,
+				F332EA2623B1107900A8189C /* NewGiftView.swift in Sources */,
 				18D775C322AD944300AE281E /* SceneDelegate.swift in Sources */,
 				F3B6AE3E2397313F00C93B91 /* Gift.swift in Sources */,
 				18D775C522AD944300AE281E /* GiftListView.swift in Sources */,
